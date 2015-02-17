@@ -5,7 +5,7 @@
             <!-- About Us Information -->
             <div class="col-md-3 col-sm-6">                           
                 <div class="f-logo">
-                    <h2>Our<br>Offices</h2>                                                                    
+                    <h2>I nostri uffici</h2>                                                                    
                 </div>
             </div>
             <!-- Recent Posts -->
@@ -14,7 +14,7 @@
                     <i class="fa fa-map-marker fa-lg"></i> 
                 </div>
                 <div class="col-sm-10">
-                    <strong>New York</strong>
+                    <strong>Aci Catena</strong>
                     <div class="f-space"></div>
                     <address>                                
                         795 Folsom Ave, Suite 600<br>                                
@@ -29,7 +29,7 @@
                     <i class="fa fa-map-marker fa-lg"></i> 
                 </div>
                 <div class="col-sm-10">
-                    <strong>London</strong>
+                    <strong>San Nicolò</strong>
                     <div class="f-space"></div>
                     <address>                                
                         795 Folsom Ave, Suite 600<br>                                
@@ -44,7 +44,7 @@
                     <i class="fa fa-map-marker fa-lg"></i> 
                 </div>
                 <div class="col-sm-10">
-                    <strong>Berlin</strong>
+                    <strong>Catania</strong>
                     <div class="f-space"></div>
                     <address>                                
                         795 Folsom Ave, Suite 600<br>                                
@@ -61,7 +61,7 @@
         <div class="row">                                                         
             <!-- Copyright -->                                                       
             <div class="col-sm-6 col-md-6 f-copyright">                        
-                <span>© Copyright LARX - All Rights Reserved</span>                        
+                <span>© Copyright <b>Tecno Service Giovanni Privitera</b>  - All Rights Reserved</span>                        
             </div>                      
             <div class="col-sm-6 col-md-6">
                 <!-- Social Icons -->                              
