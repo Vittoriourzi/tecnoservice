@@ -540,25 +540,37 @@ a:focus {
 	3) HEADER PAGES PARALLAX BACKGROUND
 ------------------------------------------------------- */
 
-#about_bg{	
-	background: url('../img/header_bg/image1.jpg') 50% 0 no-repeat fixed;
+#about_bg{
+        position:relative;
+	background: url('../img/lg/15.jpg') 50% 0 no-repeat fixed;
 	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-bottom: 130px;
+	background-size: cover;					
+}
+#contatti_bg{	
+        position:relative;
+	background: url('../img/lg/13.jpg') 50% 0 no-repeat fixed;
+        
+	padding-top: 200px;
+	padding-bottom: 130px;
 	background-size: cover;					
 }
 #service_bg{	
+        position:relative;
 	background: url('../img/header_bg/image2.jpg') 50% 0 no-repeat fixed;
 	padding-top: 200px;
 	padding-bottom: 200px;
 	background-size: cover;					
 }
 #projects_bg{	
+        position:relative;
 	background: url('../img/header_bg/image3.jpg') 50% 0 no-repeat fixed;
 	padding-top: 200px;
 	padding-bottom: 200px;
 	background-size: cover;	
 }
 #blog_bg{
+        position:relative;
 	color: #fff;
 	background: url('../img/header_bg/image4.jpg') 50% 0 no-repeat fixed;
 	padding-top: 200px;
@@ -566,6 +578,7 @@ a:focus {
 	background-size: cover;					
 }
 #blog2_bg{
+        position:relative;
 	color: #fff;
 	background: url('../img/header_bg/image5.jpg') 50% 0 no-repeat fixed;
 	padding-top: 80px;
@@ -1246,8 +1259,9 @@ ul.footer-social{
 	margin-bottom: 30px;
 }
 .cta-section{
+    position:relative;
 	color: #fff;	
-	background: url('../img/header_bg/bg2.jpg') 50% 0 no-repeat fixed;
+	background: url('../img/lg/blur1.jpg') 50% 0 no-repeat fixed;
 	background-size: cover;
 }
 .cta-title-2 h2{
@@ -1509,7 +1523,7 @@ a:focus {
 	.about-caption{margin-bottom: 20px; text-align: center;}
 	.bg-color{text-align: center;}
 	.team-details{margin-bottom: 30px;}
-	.header-nav{padding-bottom: 20px;}
+	.header-nav{padding-bottom: 8px;}
 	.nav-logo{float: right;}
 }
 @media(max-width:991px){
@@ -1630,26 +1644,15 @@ iframe{
 }
 /*CSS edited and added by Vittorio Urzì**/
 
-body.welcome {
-    
+
+.navbar-fixed-top{
+    box-shadow: 0 0 7px rgba(0,0,0,0.3);
+    background-color: rgba(255,255,255,0.98);
 }
-body.welcome .header-nav{
-    font-weight:bold;
-    background-color:transparent;
-    
-/*    background-color:rgba(0,0,0,0.2);*/
-}
-body.welcome .navbar-default .navbar-nav>li>a{
-    color:#fff;
-    text-shadow:1px 1px 1px rgba(0,0,0,0.6);
-}
-body.welcome .navbar-default .navbar-nav>li.active>a{
-    
-    color:#ddd;
-}
-body.welcome .navbar-default .navbar-nav>li:hover>a{
-    
-    color:#bbb;
+
+.navbar-default .navbar-nav>li>a{
+    font-size:11px!important;
+    font-weight:bold!important;
 }
 .filter{
     position:absolute;
@@ -1662,19 +1665,40 @@ body.welcome .navbar-default .navbar-nav>li:hover>a{
     z-index:0;
 }
 .filter-dark{
-    background-color:rgba(0,0,0,0.15);
+    background-color:rgba(0,0,0,0.45);
 }
 
 .filter-white{
-    background-color:rgba(255,255,255,0.28);
+    background-color:rgba(255,255,255,0.14);
 }
 .filter-purple{
     background-color: rgba(202,185,255,0.2);   
 }
 
-body.welcome .navbar-brand{
+
+.head-title{
+    z-index:1;
+    position:relative;
+}
+.navbar-brand{ 
+    padding:0px!important;
+    padding-left:15px!important;
     
 }
-body.welcome .navbar-brand img{
-    height:55px;
+.navbar-brand img{
+    margin-top:17px;
+    height:30px;
+}
+.flat-text{
+    line-height:35px;
+}
+.shadow-top{
+    box-shadow: 0 0 50px rgba(0,0,0,0.9);
+}
+italic{
+    font-style: italic;
+}
+.team-inner{
+    max-width:345px!important;/*fixing del template che sfasava in xs*/
+    margin:0 auto!important; /*fixing del template che sfasava in xs*/
 }

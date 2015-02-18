@@ -1,141 +1,133 @@
-        <!-- Slider -->
-        <div class="tp-banner-container" id="home">
-            <div class="tp-banner">
+    
 
-                <ul>    
-
-                    <!-- SLIDE  -->
-                    <li data-transition="fade" data-slotamount="5" data-masterspeed="500" data-thumb="<?=base_url()?>assets/img/lg/5_t.jpg"  data-saveperformance="off"  data-title="Slide">
-
-                        <!-- MAIN IMAGE -->
-                        <img src="<?=base_url()?>assets/img/lg/5.jpg"  alt="fullslide1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-                        <!-- LAYERS -->                        
-                        <div class="filter filter-dark"></div>
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption slider-text lfb ltt tp-resizeme text-center"
-                            data-x="center" data-hoffset="0"
-                            data-y="center" data-voffset="-30"        
-                            data-speed="600"
-                            data-start="800"
-                            data-easing="Power4.easeOut"
-                            data-splitin="none"
-                            data-splitout="none"
-                            data-elementdelay="0.01"
-                            data-endelementdelay="0.1"
-                            data-endspeed="500"
-                            data-endeasing="Power4.easeIn"
-                            style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">We are a creative interior<br>design studio
-                        </div>
-
-                        <!-- LAYER NR. 2 -->
-                        <div class="tp-caption lfb ltt tp-resizeme"
-                            data-x="center" data-hoffset="0"
-                            data-y="center" data-voffset="100"        
-                            data-speed="600"
-                            data-start="900"
-                            data-easing="Power4.easeOut"
-                            data-splitin="none"
-                            data-splitout="none"
-                            data-elementdelay="0.01"
-                            data-endelementdelay="0.1"
-                            data-endspeed="500"
-                            data-endeasing="Power4.easeIn"
-                            style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;"><a href="projects.html" class="btn gold-btn">Get In Touch</a>                                                    
-                        </div>
-
-                    </li>
-                    <!-- END SLIDE -->
-
-                    <!-- SLIDE  -->
-                    <li data-transition="fade" data-slotamount="5" data-masterspeed="500" data-thumb="<?=base_url()?>assets/img/lg/0_t.jpg"  data-saveperformance="off"  data-title="Slide">
-
-                        <!-- MAIN IMAGE -->
-                        <img src="<?=base_url()?>assets/img/lg/0.jpg"  alt="fullslide8"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-                        <!-- END MAIN IMAGE -->
- 
-                        <div class="filter filter-purple"></div>
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption slider-text lfb ltt tp-resizeme text-center"
-                            data-x="center" data-hoffset="0"
-                            data-y="center" data-voffset="-30"
-                            data-speed="600"
-                            data-start="800"
-                            data-easing="Power4.easeOut"
-                            data-splitin="none"
-                            data-splitout="none"
-                            data-elementdelay="0.01"
-                            data-endelementdelay="0.1"
-                            data-endspeed="500"
-                            data-endeasing="Power4.easeIn"
-                            style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">A beautiful way to show<br>your projects
-                        </div>
-
-                        <!-- LAYER NR. 2 -->
-                        <div class="tp-caption lfb ltt tp-resizeme"
-                            data-x="center" data-hoffset="0"
-                            data-y="center" data-voffset="100"
-                            data-speed="600"
-                            data-start="900"
-                            data-easing="Power4.easeOut"
-                            data-splitin="none"
-                            data-splitout="none"
-                            data-elementdelay="0.01"
-                            data-endelementdelay="0.1"
-                            data-endspeed="500"
-                            data-endeasing="Power4.easeIn"
-                            style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;"><a href="projects.html" class="btn gold-btn">Get In Touch</a>                                                    
-                        </div>
-
-                    </li>
-                    <!-- END SLIDE  -->
-
-                    <!-- SLIDE  -->
-                    <li data-transition="fade" data-slotamount="5" data-masterspeed="500" data-thumb="<?=base_url()?>assets/img/lg/3_t.jpg"  data-saveperformance="off"  data-title="Slide">
-
-                        <!-- MAIN IMAGE -->
-                        <img src="<?=base_url()?>assets/img/lg/3.jpg"  alt="fullslide8"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-                        <!-- END MAIN IMAGE -->                               
- 
-                        <div class="filter filter-dark"></div>
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption slider-text lfb ltt tp-resizeme text-center"
-                            data-x="center" data-hoffset="0"
-                            data-y="center" data-voffset="-30"
-                            data-speed="600"
-                            data-start="800"
-                            data-easing="Power4.easeOut"
-                            data-splitin="none"
-                            data-splitout="none"
-                            data-elementdelay="0.01"
-                            data-endelementdelay="0.1"
-                            data-endspeed="500"
-                            data-endeasing="Power4.easeIn"
-                            style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">Larx a creative template<br>for your business
-                        </div>
-
-                        <!-- LAYER NR. 2 -->
-                        <div class="tp-caption lfb ltt tp-resizeme"
-                            data-x="center" data-hoffset="0"
-                            data-y="center" data-voffset="100"
-                            data-speed="600"
-                            data-start="900"
-                            data-easing="Power4.easeOut"
-                            data-splitin="none"
-                            data-splitout="none"
-                            data-elementdelay="0.01"
-                            data-endelementdelay="0.1"
-                            data-endspeed="500"
-                            data-endeasing="Power4.easeIn"
-                            style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;"><a href="projects.html" class="btn gold-btn">Get In Touch</a>                                                    
-                        </div>
-
-                    </li>
-                    <!-- END SLIDE  -->
-
-                </ul>                      
-
-            </div>
-        </div>  
-        <!-- End Slider -->         
-
+       
+    <!-- Header Background Parallax Image -->
+        <div id="contatti_bg">
+            <div class="filter filter-dark"></div>
+            <div class="head-title">
+                <h2>I nostri contatti</h2>                
+            </div>  
+        </div>
+        <!-- End Header Background Parallax Image -->    
         
+        <!-- Contact Form (name, email, phone and message inputs for your email form "should change your email adress in contact.php file") -->     
+        <div class="shadow-top bg-color padding-top-x2">
+            <div class="container padding-bottom">
+                <div class="col-lg-12" id="contact">                
+                    <div id="message"></div>
+                    <form method="post" action="contact.php" name="contactform" id="contactform">
+                        <fieldset>
+                            <div class="col-md-6">
+
+                                <!-- Description -->                                        
+                                <h3>Vuoi chiederci qualcosa?</h3>   
+                                <br>                                     
+                                <p>
+                                     <br><strong>Tecno Service</strong> grazie alla gestione in contemporanea
+                                di più contratti, ottimizza risorse, tempi e materiali
+                                riuscendo ad essere competitiva nel mercato, pur
+                                garantendo efficienza e un servizio di reperibilità, H24.
+                                </p>
+                                <br>
+                                <div class="row">
+                                    <!-- Adress -->                       
+                                    <div class="col-sm-3 col-md-6">
+                                        <div class="col-sm-2 contact-icon">
+                                            <i class="fa fa-map-marker"></i>
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <span><b>Address</b></span> 
+                                            <address>                            
+                                                <small>
+                                                    190 Tehun Street<br>
+                                                    Los Angeles, CA 913 20                                                            
+                                                </small>                               
+                                            </address>             
+                                        </div>                   
+                                    </div>
+
+                                    <!-- Phone -->
+                                    <div class="col-sm-3 col-md-6">
+                                        <div class="col-sm-2 contact-icon">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <span><b>Phone</b></span>
+                                            <address>                            
+                                                <small>                                                           
+                                                    +88 (0) 61 3 8376 6284  
+                                                </small>
+                                            </address>            
+                                        </div>                    
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <!-- Fax -->
+                                    <div class="col-sm-3 col-md-6">
+                                        <div class="col-sm-2 contact-icon">
+                                            <i class="fa fa-fax"></i>
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <span><b>Fax</b></span>
+                                            <address>                            
+                                                <small>
+                                                    +88 (0) 61 3 8376 6284                          
+                                                </small>
+                                            </address>
+                                        </div>
+                                    </div> 
+
+                                    <!-- Email -->
+                                    <div class="col-sm-3 col-md-6">
+                                        <div class="col-sm-2 contact-icon">
+                                            <i class="fa fa-envelope"></i>
+                                        </div>
+                                        <div class="col-sm-10">
+                                            <span><b>Email</b></span>
+                                            <address>                            
+                                                <small>
+                                                   no-reply@yourdomain.com                    
+                                                </small>
+                                            </address>
+                                        </div>
+                                    </div>                                                                                        
+                                </div>
+                                <br>
+                                <div class="row">                                            
+                                    <div class="col-sm-3 col-md-12">
+                                        <ul class="contact-social">
+                                            <li><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
+                                            <li><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
+                                            <li><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-skype fa-stack-1x fa-inverse"></i></span></a></li>
+                                            <li><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-pinterest fa-stack-1x fa-inverse"></i></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6"> 
+                                <!-- Name -->
+                                <input name="name" type="text" id="name" size="30" value="" placeholder="Name"/>
+                                <br />
+                                <!-- Email -->
+                                <input name="email" type="text" id="email" size="30" value="" placeholder="Email"/>
+                                <br /> 
+                                <!-- Phone -->
+                                <input name="phone" type="text" id="phone" size="30" value="" placeholder="Phone"/>
+
+                                <!-- Message -->                                                                        
+                                <textarea name="comments" cols="40" rows="5" id="comments" placeholder="Message"></textarea>
+
+                                <!-- Submit Button -->                                        
+                                <button type="submit" class="btn btn-default btn-submit submit" id="submit" value="Submit">Submit</button>
+                                
+                            </div>
+                                                                                                
+                        </fieldset>
+                    </form>
+                </div>
+            </div>   
+        </div>          
+        <!-- End Contact Form -->
